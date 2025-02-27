@@ -1,9 +1,9 @@
-import {Button} from "@/components/ui/button";
 
+import GrammarCorrector from "@/components/GrammarCorrector";
 export default async function HomePage() {
   return (
     <main>
-      <Button>👋</Button>
+      <GrammarCorrector />
     </main>
   );
 }
